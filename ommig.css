@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.textkursiv {
+  font-style: italic;
+  margin: 1.5rem;
+}
+
+.center_text {
+  text-align: center;
+  padding-left: rem;
+}
+
+footer {
+  border-top: 1px solid #07304c;
+  color: black;
+}
+
+.profil {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.profilbillede {
+  width: 230px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.education {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #07304c;
+}
+.resize_skater {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.experience {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #07304c;
+}
+
+.text_om_mig {
+  border-top: 1px solid #07304c;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#skills {
+  text-align: center;
+  border-top: 1px solid #07304c;
+  padding-top: 1rem;
+}
+#video {
+  display: flex;
+  justify-content: center;
+}
+
+.vid-border {
+  height: 240px;
+  width: 325px;
+  margin-top: 1rem;
+}
+
+#vid {
+  height: 240px;
+  width: 325px;
+}
+
+/* gør siden reponsiv */
+/* gør siden reponsiv */
+/* gør siden reponsiv */
+
+@media (min-width: 1000px) {
+  main {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .profilbillede {
+    width: 420px;
+  }
+
+  #section_one {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 2/5;
+    margin-top: 100px;
+  }
+  .profil {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    border: 3px solid #07304c;
+  }
+
+  #section_two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 2rem;
+  }
+
+  .experience {
+    text-align: center;
+    margin: 1rem;
+    border: none;
+  }
+  .education {
+    margin: 1rem;
+    border: none;
+  }
+  .resize_skater {
+    width: 400px;
+    height: auto;
+  }
+
+  .text_om_mig {
+    margin: 1rem;
+    border-left: 1px solid #07304c;
+    border-right: 1px solid #07304c;
+    padding-top: 8rem;
+    border-top: none;
+  }
+
+  #skills {
+    text-align: center;
+  }
+  #video {
+    display: flex;
+    justify-content: center;
+  }
+
+  .vid-border {
+    position: relative;
+    height: 480px;
+    width: 650px;
+    border: 5px solid #07304c;
+    overflow: hidden;
+  }
+
+  #vid {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    height: 480px;
+    width: 650px;
+  }
+}

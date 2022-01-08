@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.text_om_mig {
+  font-style: italic;
+  margin: 1.5rem;
+}
+
+footer {
+  color: black;
+}
+#profil {
+  padding-bottom: 1rem;
+}
+.profilbillede {
+  width: 400px;
+  height: auto;
+  padding-bottom: 1rem;
+}
+.education {
+  padding-bottom: 1rem;
+}
+
+.experience {
+  padding-bottom: 1rem;
+}
+
+.skills {
+  text-align: center;
+}
+
+.vid-border {
+  position: relative;
+  height: 240px;
+  width: 325px;
+  border: 5px solid #07304c;
+  overflow: hidden;
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+#vid {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  height: 240px;
+  width: 325px;
+}
+
+@media (min-width: 700px) {
+  main {
+    margin: 20px;
+  }
+  /*gridet for ommig*/
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 3rem;
+  }
+
+  #profil {
+    grid-column: 2/3;
+    display: grid;
+
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+  .profilbillede {
+  }
+
+  .experience {
+    grid-column: 3/4;
+    grid-row: 1;
+    text-align: center;
+  }
+
+  .text_om_mig {
+    padding-left: 5rem;
+    grid-column: 2/3;
+  }
+  .education {
+    grid-column: 1/2;
+    grid-row: 2;
+    text-align: center;
+  }
+  .skills {
+    grid-column: 2/3;
+    grid-row: 3;
+    text-align: center;
+  }
+  .video_grid {
+    grid-column: 2/3;
+    grid-row: 4;
+  }
+
+  /*grid slut*/
+  .center_education {
+    text-align: center;
+  }
+
+  .vid-border {
+    position: relative;
+    height: 480px;
+    width: 650px;
+    border: 5px solid #07304c;
+    overflow: hidden;
+  }
+  #vid {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    height: 480px;
+    width: 650px;
+  }
+}
