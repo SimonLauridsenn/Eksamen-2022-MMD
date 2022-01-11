@@ -14,30 +14,26 @@ img {
   max-width: 100%;
   max-height: auto;
   object-fit: cover;
-  border-radius: 5px;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
 }
-/* .maingrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 10px;
-  } */
 
 h2 {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-top: 30px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
   margin-left: 2rem;
   margin-right: 2rem;
 }
 h3 {
+  padding-bottom: 1rem;
   margin-left: 2rem;
   margin-right: 2rem;
 }
 
 footer {
-  border-top: 1px solid #07304c;
-  color: black;
+  color: #c4c0b5;
+  background-color: #07304c;
 }
 
 #tema_02 {
@@ -54,22 +50,36 @@ footer {
 }
 #tema_05 {
   gap: 10px;
-}
-.tema_05 {
+  border-bottom: 1px solid #07304c;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-.tema_05 p {
+
+/* .tema_05 p {
   margin-top: 1rem;
   margin-bottom: 1rem;
+} */
+
+#tema_06 {
+  border-bottom: 1px solid #07304c;
+  gap: 10px;
+}
+
+.javascript_text {
+  padding-top: 1rem;
 }
 .links p {
   max-width: 60ch;
   font-size: 1rem;
 }
+.links {
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
 
-ol {
-  list-style-type: circle;
+.links_border {
+  font-size: 1rem;
+  color: #07304c;
 }
 
 /* li a {
@@ -84,9 +94,7 @@ ol {
     grid-template-columns: 1fr 1fr 1fr;
     padding-top: 2rem;
   } */
-  ol {
-    grid-column: span 2;
-  }
+
   .my_grid_02 {
     display: grid;
     gap: 1.5rem;
@@ -97,20 +105,15 @@ ol {
     margin-inline: auto;
   }
   .span_text {
-    padding-top: 3rem;
     grid-column: 1/3;
   }
-  .tema_02_dokumentation {
-    width: 400px;
-    height: 400px;
-  }
+
   /* tema 02 slut */
   /* tema 03 start */
   .my_grid_03 {
     display: grid;
     gap: 1.5rem;
     grid-template-columns: 1fr 1fr 1fr;
-
     padding-block: 2rem;
     width: min(95%, 70rem);
     margin-inline: auto;
@@ -139,7 +142,7 @@ ol {
     gap: 1.5rem;
     grid-template-columns: 1fr 1fr 1fr;
 
-    padding-block: 2rem;
+    padding-block: 1.8rem;
     width: min(95%, 70rem);
     margin-inline: auto;
   }
@@ -149,12 +152,16 @@ ol {
   .tema_04_dokumentation1 {
     grid-column: span 2;
   }
+
+  .tema_04_dokumentation4 {
+    grid-column: span 2;
+  }
   .my_grid_05_pilot {
     display: grid;
     gap: 1.5rem;
     grid-template-columns: 1fr 1fr 1fr;
 
-    padding-block: 2rem;
+    padding-block: 1.8rem;
     width: min(95%, 70rem);
     margin-inline: auto;
   }
@@ -163,7 +170,7 @@ ol {
     gap: 1.5rem;
     grid-template-columns: 1fr 1fr 1fr;
 
-    padding-block: 2rem;
+    padding-block: 1.8rem;
     width: min(95%, 70rem);
     margin-inline: auto;
   }
@@ -181,6 +188,29 @@ ol {
     grid-column: span 2;
   }
   .links {
+    margin-left: 1rem;
+  }
+  .portfolie_grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    padding-block: 1.8rem;
+    width: min(95%, 70rem);
+    margin-inline: auto;
+  }
+  .styletile_span {
     grid-column: span 2;
   }
 }
+/* ---kode til at få alle billeder lige store--- */
+/* .tema_04_dokumentation2 {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+  }
+  .tema_04_dokumentation3 {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+  } */

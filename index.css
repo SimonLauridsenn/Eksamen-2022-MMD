@@ -6,7 +6,7 @@
 }
 
 .forside {
-  background-image: url(/billeder/Simon\ eksamens\ billede.png);
+  background-image: url(/billeder/forside-portfolie.png);
   max-width: 100%;
   width: 100%;
   height: 100vh;
@@ -29,8 +29,9 @@ h1 {
 .forsidetext {
   top: 40%;
   left: 30%;
-  color: white;
   font-size: 4rem;
+  color: white;
+  padding-top: 10rem;
 }
 
 main {
@@ -42,6 +43,10 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.knap_container {
+  float: inline-start;
+}
 .insta {
   border: none;
   color: white;
@@ -52,12 +57,24 @@ img {
   cursor: pointer;
   background-color: transparent;
   border-radius: 0%;
+  width: 40px;
+  height: 40px;
 }
-.knap_child {
-  margin: 0;
-  position: absolute;
-  top: 90%;
-  left: 90%;
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 500px;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.welcome_text {
+  text-align: center;
+  margin: 1rem;
+  padding-left: 1rem;
+  border-bottom: 3px solid #07304c;
+  border-left: 3px solid #07304c;
+  max-width: 60ch;
 }
 
 @media (min-width: 650px) {
@@ -70,10 +87,22 @@ img {
   }
   /*------text forside slut------*/
   .forside {
-    background-image: url(/billeder/Simon\ eksamens\ billede.png);
+    background-image: url(/billeder/forside-portfolie.png);
     max-width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 80% 0%;
+  }
+
+  .welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .welcome_text {
+    padding: 0.5rem;
+    border-bottom: 3px solid #07304c;
+    border-left: 3px solid #07304c;
+    max-width: 50ch;
   }
 }

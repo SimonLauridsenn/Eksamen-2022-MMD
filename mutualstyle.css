@@ -20,14 +20,10 @@ main {
 }
 
 footer {
-  font-family: "Nunito", sans-serif;
-  line-height: 30px;
-  font-size: 1.4rem;
-  font-weight: 300;
-  font-style: normal;
-  text-align: center;
+  text-align: start;
   margin-top: auto;
   color: white;
+  padding-left: 3rem;
 }
 /* min overskrifter og paragraf styling*/
 h1 {
@@ -55,6 +51,7 @@ p {
   font-size: 1.1rem;
   line-height: 2.2rem;
 }
+
 /*-------*/
 /*-------*/
 /*-------*/
