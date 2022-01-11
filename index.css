@@ -6,7 +6,7 @@
 }
 
 .forside {
-  background-image: url(/billeder/forside-portfolie.png);
+  background-image: url(billeder/forside-portfolie.png);
   max-width: 100%;
   width: 100%;
   height: 100vh;
@@ -86,7 +86,7 @@ img {
   }
   /*------text forside slut------*/
   .forside {
-    background-image: url(/billeder/forside-portfolie.png);
+    background-image: url(billeder/forside-portfolie.png);
     max-width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
